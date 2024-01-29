@@ -165,7 +165,7 @@ if __name__ == '__main__':
     else:
         test_cases = [args.test]
 
-    for test in TESTs:
+    for test in test_cases:
         print(f'PyTorch operation {test} testing')
         for matrix_size in size_list:
             matrix = generate_matrices(matrix_size,args.precision)
